@@ -1,7 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { motion } from "@/lib/framer-motion";
+import { motion } from "framer-motion";
+
 import { ChevronDown, FileText, Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";

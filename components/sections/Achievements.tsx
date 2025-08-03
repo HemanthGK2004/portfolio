@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { motion, useInView } from "@/lib/framer-motion";
+import { motion, useInView } from "framer-motion";
 import { Award, Calendar, ChevronLeft, ChevronRight, Code, ExternalLink, FileCheck, Trophy, Users, X } from "lucide-react";
 import { useRef, useState } from "react";
 
