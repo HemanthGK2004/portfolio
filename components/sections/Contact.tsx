@@ -1,13 +1,7 @@
 "use client";
 
-import { useRef, useState } from "react";
-import { motion, useInView } from "@/lib/framer-motion";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { Card } from "@/components/ui/card";
 import {
   Form,
   FormControl,
@@ -16,8 +10,14 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { motion, useInView } from "framer-motion";
 import { Loader2, Mail, MapPin, Phone, Send } from "lucide-react";
+import { useRef, useState } from "react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
