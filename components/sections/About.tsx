@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useInView } from "@/lib/framer-motion";
+import { motion, useInView } from "framer-motion";
 import { Briefcase, Code2, GraduationCap } from "lucide-react";
 import { useRef } from "react";
 
@@ -9,11 +9,7 @@ export function About() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section
-      id="about"
-      ref={ref}
-      className="py-16 md:py-24 bg-background"
-    >
+    <section id="about" ref={ref} className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <motion.div
