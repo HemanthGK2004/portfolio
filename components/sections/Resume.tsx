@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { motion, useInView } from "@/lib/framer-motion";
+import { motion, useInView } from "framer-motion";
 import { Download, ExternalLink, FileText } from "lucide-react";
 import { useRef } from "react";
 

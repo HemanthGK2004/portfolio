@@ -10,7 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { motion, useInView } from "@/lib/framer-motion";
+import { motion, useInView } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { useRef } from "react";
 
