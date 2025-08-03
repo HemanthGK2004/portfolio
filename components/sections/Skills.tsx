@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useInView } from "@/lib/framer-motion";
+import { motion, useInView } from "framer-motion";
 import { Code, Database, Globe, Layout, Server, PenTool as Tool } from "lucide-react";
 import { useRef } from "react";
 
